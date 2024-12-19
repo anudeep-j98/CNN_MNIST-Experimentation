@@ -21,9 +21,12 @@ Achieve 99.4% accuracy consistantly with model architecture having less than 800
 | **GAP (Global Avg Pool)**     | 26    | Full | 8    | -    |
 
 Target accuracy: 99.4%
+
 Result accuracy: 97.9%
+
 Analysis: Too High Parameters i.e ~12000. Model not improving after certain epochs so should reduce LR. Also should keep params under 8000
-Link: 
+
+Link: [Session7-Model1.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7-Model1.ipynb)
 
 
 
@@ -45,9 +48,12 @@ Link:
 | **GAP (Global Avg Pool)**     | 26    | Full | 8    | -    |
 
 Target accuracy: 99.4%
+
 Result accuracy: 99.16%
+
 Analysis: Too less Parameters i.e ~5800, model may not be able to learn features. Increasing LR have given good result. Should add and experiment with data augmentation so that it predicts test data in better way
-Link: 
+
+Link: [Session7-Model2.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7-Model2.ipynb)
 
 
 ## Model 3
@@ -68,9 +74,12 @@ Link:
 | **GAP (Global Avg Pool)**     | 26    | Full | 8    | -    |
 
 Target accuracy: 99.4%
+
 Result accuracy: 99.38%
+
 Analysis: Objective almost reached. Accuracy did not imporve after some epoch. Initiaiting model with lillt higher LR and reducing using scheduler and also experimenting with data augmentation like higher degree of rotation and distorion of images so that it can predict test data in better way
-Link: 
+
+Link: [Session7-Model1.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7-Model3.ipynb)
 
 
 ## Model 4
@@ -91,6 +100,9 @@ Link:
 | **GAP (Global Avg Pool)**     | 26    | Full | 8    | -    |
 
 Target accuracy: 99.4%
+
 Result accuracy: 99.48%
+
 Analysis: Achived accuracy and analysis on Model 3 was the primary reason for improvement
-Link: 
+
+Link: [Session7-Model1.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7_Model4.ipynb)
