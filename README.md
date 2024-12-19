@@ -79,7 +79,7 @@ Result accuracy: 99.38%
 
 Analysis: Objective almost reached. Accuracy did not imporve after some epoch. Initiaiting model with lillt higher LR and reducing using scheduler and also experimenting with data augmentation like higher degree of rotation and distorion of images so that it can predict test data in better way
 
-Link: [Session7-Model1.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7-Model3.ipynb)
+Link: [Session7-Model3.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7-Model3.ipynb)
 
 
 ## Model 4
@@ -105,4 +105,4 @@ Result accuracy: 99.48%
 
 Analysis: Achived accuracy and analysis on Model 3 was the primary reason for improvement
 
-Link: [Session7-Model1.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7_Model4.ipynb)
+Link: [Session7-Model4.ipynb](https://github.com/anudeep-j98/CNN_MNIST-Experimentation/blob/main/Session7_Model4.ipynb)
